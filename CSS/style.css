@@ -21,13 +21,11 @@
 }
 
 .text{
-	color: black;
 	font-size: x-large;
 	text-align:center;
 }
 
 .Text{
-	color: black;
 	font-size: x-large;
 	text-align:center;
 }
@@ -38,9 +36,9 @@
 }
 
 .fix{
-	top:5px; 
-	left:5px;
-	position:fixed;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	height: 90px;
 }
  
@@ -60,6 +58,12 @@ background: no-repeat right center center fixed;
         background-size: cover;
 
 }
+
+img{
+	position: relative;
+	margin-left: auto;
+}
+
 
 a{
 	text-decoration: none;

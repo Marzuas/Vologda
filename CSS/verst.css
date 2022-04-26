@@ -9,7 +9,7 @@
 @media   screen and (max-width: 1200px) {
     .text{
         font-size: 20px;
-        text-align: center;
+        text-align:center;
     }
 }
 
@@ -38,26 +38,35 @@
 }
 
 @media   screen and (max-width: 480px) {
+    Text{
+        font-size: 21px;
+    }
     .text{
-        font-size: 16px;
-        text-align: center;
+        font-size: 13px;
     }
     .Block{
-        width: 150px;
+        width: 145px;
         white-space:normal;
-        margin-left: 16%;
+        margin-left:0px;
         border-radius: 5px;
         }
-        .block{
-            width: 100%;
-            white-space:normal;
-            margin-left: 16%;
-            border-radius: 5px;
-            }
+    .block{
+        width: 50px;
+        white-space:normal;
+        margin-left: 0px;
+        border-radius: 5px;
+        }
+    img{
+        position: relative;
+    }
 }
 
 
 @media   screen and (max-width: 320px) {
+    .Text{
+        font-size: 23px;
+        margin-left: auto;
+    }
     .text{
         font-size: 23px;
         text-align: center;
