@@ -21,11 +21,13 @@
 }
 
 .text{
+	color: black;
 	font-size: x-large;
 	text-align:center;
 }
 
 .Text{
+	color: black;
 	font-size: x-large;
 	text-align:center;
 }
